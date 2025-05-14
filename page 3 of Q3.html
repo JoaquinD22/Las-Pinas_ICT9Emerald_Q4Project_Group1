@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MRT Guide</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"; rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+    body {
+   		background-image: url("Bg.png");
+	      background-attachment: fixed;
+	      background-repeat: no-repeat;
+	      background-size: 100%;
+	      text-align: center;
+	      font-family: monospace;
+	  }
+
+		.box {
+	background-color: white;
+	padding: 10px;
+	border: 1px solid #ce93d8 rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 335px;
+	margin-right: 335px;
+	class: center;
+}
+
+</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-sm navbar-light bg-primary fixed-top">
+		<div class="container-fluid">
+			<a href=""><img src="" width="45" height="45"></a>
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav me-auto">
+					<li class="nav-item"><a class="nav-link btn btn-info" style="padding-top: 5;" href="index.html">🏠Home</a></li>
+					<li class="nav-item"><a class="nav-link btn btn-info" href="page2.html">⌚Schedule</a></li>
+					<li class="nav-item"><a class="nav-link btn btn-info" href="page3.html">💬Feedback</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+   <div class="container-fluid">
+		<div class="box">
+			<h2>TRAIN FARE GUIDE</h2>
+			<h4>Feedback Form</h4>
+			<p>This is our feedback page if you have any concers or anything to say about our services like our train rides, etc., please type your name then type in you  feedback and submit!</p><br>
+			<form>    
+		        <label>Name:</label>
+		        <input type="text" class="form-control" placeholder="Name" id="user" name="user" required><br>		            
+		        <label>Feedback:</label>
+                <textarea class="form-control" rows="5" id="reason" name="reason" placeholder="Type here" req></textarea required><br>
+                <button type="submit" value="submit" class="btn btn-success btn-lg" onclick="window.alert('Thank you for your feedback!');">Submit!</button>
+            </form>
+
+</body>
+</html>
